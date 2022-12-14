@@ -1,0 +1,89 @@
+h1 
+	{font-family: helvetica;}
+
+h2 
+	{font-family: helvetica; color: #008B8B;}
+
+body 
+	{background-color: #f2f2f2;}
+
+section 
+	{padding-left: 5px; padding-right: 5px;}
+
+div 
+	{background-color: white; width: 80%; border: solid black thin; margin: auto;}
+
+ul 
+	{list-style-type: none; margin: 0; padding: 0; overflow: hidden; background-color: #333;}
+
+.photograph {
+	width: 100%;}
+li 
+	{float: left;}
+
+li a 
+	{display: inline-block; color: white; text-align: center; padding: 14px 16px; text-decoration: none;}
+
+li a:hover 
+	{background-color: #008B8B;}
+
+li.current 
+	{background-color: #00FFFF; color: black;}
+
+hr 
+	{width: 80%;}
+
+footer 
+	{text-align: center;}
+
+table{border-collapse: collapse; width: 70%; margin: auto;}
+
+td, th{border: 1px solid #dddddd; padding: 8px;}
+
+tr:nth-child(odd){background-color: #008B8B;}
+
+caption{font-weight: bold; font-size: 1.5em;}
+
+@media only screen and (max-width: 1100px) {
+	body{width: 100%;
+		 margin-left: 10%;
+		 margin-right: 10;}
+	.topnav{width: 100%;
+		    overflow: hidden;}
+	a{width: 100%;
+	  display: block;
+	  text-align: center;
+	  background-color: #000000;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: #323232}
+}
+
+@media only screen and (max-width: 600px) {
+	body{width: 90%;
+		 margin-left: 5%;
+		 margin-right: 5;}
+	.topnav{width: 100%;
+		    overflow: hidden;}
+	a{width: 100%;
+	  display: block;
+	  text-align: center;
+	  background-color: #000000;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: #323232}
+}
+@media only screen and (max-width: 450px) {
+	body{width: 80%;
+		 margin-left: 5%;
+		 margin-right: 5;}
+	.topnav{width: 100%;
+		    overflow: hidden;}
+	a{width: 100%;
+	  display: block;
+	  text-align: center;
+	  background-color: #000000;
+	  border-style: solid;
+	  border-width: 1px;
+	  border-color: #323232}
+}
